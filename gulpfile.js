@@ -253,7 +253,7 @@ gulp.task('build', function(callback) {
         'svg-sprite',
         'svg',
         'fonts',
-        'gh-pages',
+        //'gh-pages',
         callback)
 });
 
