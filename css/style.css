@@ -4194,6 +4194,8 @@ This must be run when you have at least 2 sprites.
     display: inline-block;
 
     content: '';
+
+    background-repeat: no-repeat;
 }
 @media (max-width: 1200px)
 {
