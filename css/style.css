@@ -3963,7 +3963,7 @@ This must be run when you have at least 2 sprites.
 
     text-align: left;
 
-    color: darker(#ccc);
+    color: #ccc;
 }
 .resources__img-wrapper
 {
@@ -4240,8 +4240,11 @@ This must be run when you have at least 2 sprites.
 }
 .footer__logo
 {
-    width: 362px;
-    height: 99px;
+    width: 300px;
+    height: auto;
+
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 @media (max-width: 1200px)
 {
