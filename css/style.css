@@ -4192,6 +4192,13 @@ This must be run when you have at least 2 sprites.
 
     content: '';
 }
+@media (max-width: 1200px)
+{
+    .footer__contacts:before
+    {
+        left: -35px;
+    }
+}
 .footer__contacts--phone:before
 {
     width: 26px;
