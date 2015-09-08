@@ -3723,19 +3723,19 @@ This must be run when you have at least 2 sprites.
 {
     font-family: 'Garamond-Bold';
 
-    src: url('fonts/Garamond/GARABD.TTF') format('truetype');
+    src: url('fonts/Garamond/GARABD.ttf') format('truetype');
 }
 @font-face
 {
     font-family: 'Garamond-Regular';
 
-    src: url('fonts/Garamond/GARA.TTF') format('truetype');
+    src: url('fonts/Garamond/GARA.ttf') format('truetype');
 }
 @font-face
 {
     font-family: 'Garamond-Italic';
 
-    src: url('fonts/Garamond/GARAIT.TTF') format('truetype');
+    src: url('fonts/Garamond/GARAIT.ttf') format('truetype');
 }
 @font-face
 {
