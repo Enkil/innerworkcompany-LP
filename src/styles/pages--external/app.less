@@ -1,31 +1,10 @@
 .page-bg{
   box-shadow: 0 0 40px 80px @body-shadow;
   display: inline-block;
-  //
-  //.container-fixed();
-  //@media (min-width: @screen-sm-min) {
-  //  width: @container-sm - 30px;
-  //}
-  //@media (min-width: @screen-md-min) {
-  //  width: @container-md - 30px;
-  //}
-  //@media (min-width: @screen-lg-min) {
-  //  width: @container-lg - 30px;
-  //}
-  //
-  //padding: 0;
-  //padding-right: 0;
-  //padding-left: 0;
-  //overflow: hidden;
 }
 
 .body{
   text-align: center;
-}
-
-.container {
-  //padding-right: 0;
-  //padding-left: 0;
 }
 
 .content-bg{
@@ -38,7 +17,8 @@
 
   &__inner{
     background-color: @header-bg;
-    background-image: url(../img/images/header-bg.png);
+    //background-image: url(../img/images/header-bg.png);
+    background-image: url(../img/images/header-bg2.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-left: 0;
@@ -138,6 +118,7 @@
     height: 175px;
     border: 8px solid @img-border;
     box-shadow: 0 0 8px 0 @img-shadow;
+    object-fit: cover;
 
     @media (max-width: 1200px) {
       margin-top: 20px;
@@ -272,12 +253,17 @@
     position: relative;
     @media (max-width: @screen-lg) {
       padding-left: 0;
+      display: inline-block;
     }
     &:before{
       content: '';
       display: inline-block;
+      background-repeat: no-repeat;
       position: absolute;
       left: 0;
+      @media (max-width: @screen-lg) {
+        left: -35px;
+      }
     }
 
     &--phone:before{
@@ -296,8 +282,9 @@
     }
   }
   &__logo{
-    width: 362px;
-    height: 99px;
+    width: 300px;
+    height: auto;
+    object-fit: contain;
     @media (max-width: @screen-lg) {
       margin: 0 auto;
     }

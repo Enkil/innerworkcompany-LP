@@ -3857,7 +3857,7 @@ This must be run when you have at least 2 sprites.
     padding-left: 0;
 
     background-color: #000759;
-    background-image: url(../img/images/header-bg.png);
+    background-image: url(../img/images/header-bg2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -3963,7 +3963,7 @@ This must be run when you have at least 2 sprites.
 
     text-align: left;
 
-    color: #ccc;
+    color: #8d8d8f;
 }
 .resources__img-wrapper
 {
@@ -3989,6 +3989,9 @@ This must be run when you have at least 2 sprites.
 
     border: 8px solid #fff;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, .2);
+
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 @media (max-width: 1200px)
 {
@@ -4031,7 +4034,7 @@ This must be run when you have at least 2 sprites.
     vertical-align: sub;
 
     background-image: url(../img/sprites/png/png-sprite.png);
-    background-position: -56px 0;
+    background-position: -54px 0;
 }
 .resource-table__link
 {
@@ -4145,7 +4148,7 @@ This must be run when you have at least 2 sprites.
     margin-left: 0;
 
     border: none;
-    background-color: #002f7d;
+    background-color: #83a6e1;
 }
 @media (max-width: 1200px)
 {
@@ -4178,6 +4181,8 @@ This must be run when you have at least 2 sprites.
 {
     .footer__contacts
     {
+        display: inline-block;
+
         padding-left: 0;
     }
 }
@@ -4189,22 +4194,31 @@ This must be run when you have at least 2 sprites.
     display: inline-block;
 
     content: '';
+
+    background-repeat: no-repeat;
+}
+@media (max-width: 1200px)
+{
+    .footer__contacts:before
+    {
+        left: -35px;
+    }
 }
 .footer__contacts--phone:before
 {
-    width: 26px;
+    width: 24px;
     height: 24px;
 
     background-image: url(../img/sprites/png/png-sprite.png);
-    background-position: -30px -26px;
+    background-position: -30px 0;
 }
 .footer__contacts--website:before
 {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
 
     background-image: url(../img/sprites/png/png-sprite.png);
-    background-position: -30px 0;
+    background-position: -30px -24px;
 }
 .footer__logo-wrapper
 {
@@ -4228,8 +4242,11 @@ This must be run when you have at least 2 sprites.
 }
 .footer__logo
 {
-    width: 362px;
-    height: 99px;
+    width: 300px;
+    height: auto;
+
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 @media (max-width: 1200px)
 {

@@ -49,7 +49,8 @@ var projectPath = {
         svgSprite: 'build/img/sprites/svg/svg-sprite.svg',
         svgSpriteNoSvg: 'build/img/sprites/svg/svg-sprite.png',
         svgSpriteCSS: 'src/styles/common/_svg-sprite.less',
-        fonts: 'build/css/fonts/'
+        fonts: 'build/css/fonts/',
+        files: 'build/files/'
     },
     src: { // Set source paths
         html: ['src/**/*.html', 'humans.txt'],
@@ -62,7 +63,8 @@ var projectPath = {
         pngRetinaSprite: 'src/img/sprites/png/**/*-2x.png',
         svgSprite: 'src/img/sprites/svg/**/*.svg',
         svgSpriteTpl: 'src/styles/common/_svg-sprite-less.tpl',
-        fonts: 'src/styles/fonts/**/*.*'
+        fonts: 'src/styles/fonts/**/*.*',
+        files: 'src/files/**/*.*'
     },
     watch: { // Set watch paths
         html: 'src/**/*.html',
@@ -236,6 +238,16 @@ gulp.task('fonts', function() {
         .pipe(reload({stream: true}));
 });
 
+/* Files */
+gulp.task('files', function() {
+    return gulp.src(projectPath.src.files)
+        .pipe(size({
+            title: 'Files'
+        }))
+        .pipe(gulp.dest(projectPath.build.files))
+        .pipe(reload({stream: true}));
+});
+
 /* Clean build directory */
 gulp.task('clean', function (cb) {
     del(projectPath.clean, cb);
@@ -253,7 +265,8 @@ gulp.task('build', function(callback) {
         'svg-sprite',
         'svg',
         'fonts',
-        //'gh-pages',
+        'files',
+        'gh-pages',
         callback)
 });
 
