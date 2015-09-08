@@ -3963,7 +3963,7 @@ This must be run when you have at least 2 sprites.
 
     text-align: left;
 
-    color: #ccc;
+    color: darker(#ccc);
 }
 .resources__img-wrapper
 {
