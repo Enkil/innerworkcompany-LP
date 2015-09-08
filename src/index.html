@@ -1,34 +1,79 @@
 <!DOCTYPE html>
-<html lang="en" class="page-bg no-js" prefix="og: http://ogp.me/ns#">
+<html lang="en" class="no-js" prefix="og: http://ogp.me/ns#">
 
     <!-- build:include html-blocks/common/head.html -->
     This will be replaced by the content of html-blocks/common/head.html
     <!-- /build -->
 
-    <body class="body-bg">
+    <body class="body">
 
         <!-- build:include html-blocks/common/if-ie.html -->
         This will be replaced by the content of html-blocks/common/if-ie.html
         <!-- /build -->
 
-        <!-- build:include html-blocks/pages--external/header--external.html -->
-        This will be replaced by the content of html-blocks/pages--external/header--external.html
-        <!-- /build -->
+        <div class="page-bg">
+            <!-- build:include html-blocks/pages--external/header--external.html -->
+            This will be replaced by the content of html-blocks/pages--external/header--external.html
+            <!-- /build -->
 
-        <main>
-
-            <div class="container">
+            <main class="container content-bg">
                 <div class="row">
 
+                    <!-- build:include html-blocks/pages--external/text-block.html -->
+                    This will be replaced by the content of html-blocks/pages--external/text-block.html
+                    <!-- /build -->
+
+                    <!-- build:include html-blocks/pages--external/text-block.html -->
+                    This will be replaced by the content of html-blocks/pages--external/text-block.html
+                    <!-- /build -->
+
+                    <!-- build:include html-blocks/pages--external/resources.html -->
+                    This will be replaced by the content of html-blocks/pages--external/resources.html
+                    <!-- /build -->
+
+                    <!-- build:include html-blocks/pages--external/text-block.html -->
+                    This will be replaced by the content of html-blocks/pages--external/text-block.html
+                    <!-- /build -->
+
+                    <!-- build:include html-blocks/pages--external/resources.html -->
+                    This will be replaced by the content of html-blocks/pages--external/resources.html
+                    <!-- /build -->
+
+                    <!-- build:include html-blocks/pages--external/text-block.html -->
+                    This will be replaced by the content of html-blocks/pages--external/text-block.html
+                    <!-- /build -->
+
+                    <!-- build:include html-blocks/pages--external/resources.html -->
+                    This will be replaced by the content of html-blocks/pages--external/resources.html
+                    <!-- /build -->
 
                 </div>
-            </div>
 
-        </main>
+            </main>
 
-        <!-- build:include html-blocks/pages--external/footer--external.html -->
-        This will be replaced by the content of html-blocks/pages--external/footer--external.html
-        <!-- /build -->
+            <!-- build:include html-blocks/pages--external/footer--external.html -->
+            This will be replaced by the content of html-blocks/pages--external/footer--external.html
+            <!-- /build -->
+        </div>
+
+        <!--<script>-->
+
+            <!--function removeFlex() {-->
+                <!--var html = document.documentElement;-->
+                <!--var windowWidth = html.clientWidth;-->
+                <!--console.info(windowWidth);-->
+
+                <!--if (windowWidth <= 1200) {-->
+                    <!--console.info('<-1200');-->
+                    <!--var resourceInner = document.querySelectorAll('.resources__inner');-->
+                    <!--console.info(resourceInner);-->
+                    <!--resourceInner.classList.remove('flex')-->
+                <!--}-->
+            <!--}-->
+
+            <!--window.onload = removeFlex();-->
+
+        <!--</script>-->
 
     </body>
 
