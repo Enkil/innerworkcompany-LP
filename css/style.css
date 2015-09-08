@@ -4034,7 +4034,7 @@ This must be run when you have at least 2 sprites.
     vertical-align: sub;
 
     background-image: url(../img/sprites/png/png-sprite.png);
-    background-position: -56px 0;
+    background-position: -54px 0;
 }
 .resource-table__link
 {
@@ -4148,7 +4148,7 @@ This must be run when you have at least 2 sprites.
     margin-left: 0;
 
     border: none;
-    background-color: #002f7d;
+    background-color: #83a6e1;
 }
 @media (max-width: 1200px)
 {
@@ -4204,19 +4204,19 @@ This must be run when you have at least 2 sprites.
 }
 .footer__contacts--phone:before
 {
-    width: 26px;
+    width: 24px;
     height: 24px;
 
     background-image: url(../img/sprites/png/png-sprite.png);
-    background-position: -30px -26px;
+    background-position: -30px 0;
 }
 .footer__contacts--website:before
 {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
 
     background-image: url(../img/sprites/png/png-sprite.png);
-    background-position: -30px 0;
+    background-position: -30px -24px;
 }
 .footer__logo-wrapper
 {
