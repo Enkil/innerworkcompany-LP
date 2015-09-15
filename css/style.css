@@ -4276,6 +4276,13 @@ This must be run when you have at least 2 sprites.
         margin: 0 auto;
     }
 }
+@media (max-width: 1200px)
+{
+    .footer__bq-wrapper
+    {
+        text-align: center;
+    }
+}
 .footer__bq
 {
     font-family: 'Garamond-Italic', sans-serif;
@@ -4332,6 +4339,13 @@ This must be run when you have at least 2 sprites.
     float: right;
 
     color: #fff;
+}
+@media (max-width: 1200px)
+{
+    .footer__author
+    {
+        display: inline-block;
+    }
 }
 .flex
 {
