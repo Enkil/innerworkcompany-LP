@@ -4066,6 +4066,13 @@ This must be run when you have at least 2 sprites.
 
     text-align: left;
 }
+@media (max-width: 1200px)
+{
+    .resource-table__link
+    {
+        padding-right: 40px;
+    }
+}
 .resource-table__data
 {
     font-family: 'Droid-Bold', sans-serif;
@@ -4077,7 +4084,7 @@ This must be run when you have at least 2 sprites.
 {
     .resource-table__data
     {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 .resource-table__download
@@ -4108,9 +4115,9 @@ This must be run when you have at least 2 sprites.
 {
     .resource-table__download
     {
-        font-size: 10px;
+        font-size: 9px;
 
-        width: 95px;
+        width: 90px;
     }
 }
 .resource-table__download:hover
