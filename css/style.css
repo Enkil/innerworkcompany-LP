@@ -4182,8 +4182,19 @@ This must be run when you have at least 2 sprites.
 
     position: relative;
 
+    display: block;
+
     margin: 0;
     padding-left: 44px;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+.footer__contacts:hover,
+.footer__contacts:focus
+{
+    text-decoration: none;
 
     color: #fff;
 }
