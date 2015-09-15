@@ -4263,6 +4263,8 @@ This must be run when you have at least 2 sprites.
 }
 .footer__logo
 {
+    display: block;
+
     width: 300px;
     height: auto;
 
@@ -4272,6 +4274,20 @@ This must be run when you have at least 2 sprites.
 @media (max-width: 1200px)
 {
     .footer__logo
+    {
+        margin: 0 auto;
+    }
+}
+.footer__logo-link
+{
+    display: block;
+
+    width: 300px;
+    height: auto;
+}
+@media (max-width: 1200px)
+{
+    .footer__logo-link
     {
         margin: 0 auto;
     }
