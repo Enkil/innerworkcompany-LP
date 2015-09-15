@@ -3953,6 +3953,18 @@ This must be run when you have at least 2 sprites.
     color: #309;
     outline: none;
 }
+.text-block__list
+{
+    font-family: 'Lato-Regular_0', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+
+    margin-bottom: 40px;
+
+    text-align: left;
+
+    color: #666;
+}
 .resources__title
 {
     font-family: 'Droid-Italic', sans-serif;
