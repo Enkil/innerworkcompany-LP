@@ -4019,13 +4019,6 @@ This must be run when you have at least 2 sprites.
     -o-object-fit: cover;
        object-fit: cover;
 }
-@media (max-width: 1200px)
-{
-    .resources__img
-    {
-        margin-top: 20px;
-    }
-}
 .resource-table
 {
     padding-bottom: 10px;
