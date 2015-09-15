@@ -3940,7 +3940,7 @@ This must be run when you have at least 2 sprites.
 {
     margin-bottom: 0;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .text-block__text
     {
@@ -4068,7 +4068,7 @@ This must be run when you have at least 2 sprites.
 
     text-align: left;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .resource-table__link
     {
@@ -4082,7 +4082,7 @@ This must be run when you have at least 2 sprites.
 
     color: #39c;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .resource-table__data
     {
@@ -4113,7 +4113,7 @@ This must be run when you have at least 2 sprites.
     background-repeat: no-repeat;
     background-position: 10px center;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .resource-table__download
     {
@@ -4181,7 +4181,7 @@ This must be run when you have at least 2 sprites.
 
     color: #fff;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__company
     {
@@ -4199,14 +4199,14 @@ This must be run when you have at least 2 sprites.
     border: none;
     background-color: #83a6e1;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__subline
     {
         width: 100%;
     }
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__contacts-wrapper
     {
@@ -4237,7 +4237,7 @@ This must be run when you have at least 2 sprites.
 
     color: #fff;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__contacts
     {
@@ -4257,7 +4257,7 @@ This must be run when you have at least 2 sprites.
 
     background-repeat: no-repeat;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__contacts:before
     {
@@ -4292,7 +4292,7 @@ This must be run when you have at least 2 sprites.
     -ms-flex-align: center;
             align-items: center;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__logo-wrapper
     {
@@ -4310,7 +4310,7 @@ This must be run when you have at least 2 sprites.
     -o-object-fit: contain;
        object-fit: contain;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__logo
     {
@@ -4324,14 +4324,14 @@ This must be run when you have at least 2 sprites.
     width: 300px;
     height: auto;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__logo-link
     {
         margin: 0 auto;
     }
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__bq-wrapper
     {
@@ -4352,7 +4352,7 @@ This must be run when you have at least 2 sprites.
 
     color: #fff;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__bq
     {
@@ -4395,7 +4395,7 @@ This must be run when you have at least 2 sprites.
 
     color: #fff;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .footer__author
     {
@@ -4410,7 +4410,7 @@ This must be run when you have at least 2 sprites.
     display: -ms-flexbox;
     display:         flex;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .flex
     {
