@@ -3940,6 +3940,13 @@ This must be run when you have at least 2 sprites.
 {
     margin-bottom: 0;
 }
+@media (max-width: 1200px)
+{
+    .text-block__text
+    {
+        font-size: 14px;
+    }
+}
 .text-block__link,
 .text-block__link:hover
 {
@@ -3974,6 +3981,13 @@ This must be run when you have at least 2 sprites.
     text-align: left;
 
     color: #8d8d8f;
+}
+@media (max-width: 1200px)
+{
+    .resources__title
+    {
+        text-align: center;
+    }
 }
 .resources__img-wrapper
 {
@@ -4059,6 +4073,13 @@ This must be run when you have at least 2 sprites.
 
     color: #39c;
 }
+@media (max-width: 1200px)
+{
+    .resource-table__data
+    {
+        font-size: 14px;
+    }
+}
 .resource-table__download
 {
     font-family: 'Roboto-Bold', sans-serif;
@@ -4082,6 +4103,15 @@ This must be run when you have at least 2 sprites.
     background-image: url(../img/images/download.png);
     background-repeat: no-repeat;
     background-position: 10px center;
+}
+@media (max-width: 1200px)
+{
+    .resource-table__download
+    {
+        font-size: 10px;
+
+        width: 95px;
+    }
 }
 .resource-table__download:hover
 {
