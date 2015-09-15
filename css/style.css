@@ -3982,7 +3982,7 @@ This must be run when you have at least 2 sprites.
 
     color: #8d8d8f;
 }
-@media (max-width: 992px)
+@media (max-width: 768px)
 {
     .resources__title
     {
