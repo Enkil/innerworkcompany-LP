@@ -3977,6 +3977,13 @@ This must be run when you have at least 2 sprites.
 
     color: #666;
 }
+@media (max-width: 768px)
+{
+    .text-block__list
+    {
+        font-size: 14px;
+    }
+}
 .resources__title
 {
     font-family: 'Droid-Italic', sans-serif;
